@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <!-- START Header -->   
+
+ <title>Bootstrap Example</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+ <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <!-- END Header -->
+ 
+      <!-- Menu bars -->
+  <nav>
+    <div id="logo-menu">
+      <div class="content" style="color: black";> <!-- Style override needed -->
+        <ul>
+          <li class="logo">
+              <img src="#" alt="techEx">
+            </a>
+          </li>
+          <li class="sign-in">
+            <a class="underlined" href="https://account.bbc.com/signin?realm=%2F&clientId=Account&context=news&ptrt=https%3A%2F%2Fwww.bbc.co.uk%2Fnews&userOrigin=news_ps&isCasso=false&action=sign-in&redirectUri=https%3A%2F%2Fsession.bbc.co.uk%2Fsession%2Fcallback%3Frealm%3D%2F&service=IdSignInService&nonce=QUkGzESo-vsqHHi4tjou7kItfmn5TCwY9an8">
+              <span>Sign in</span>
+            </a>
+          </li>
+          <li><a class="underlined" href="#">text</a></li>
+          <li><a class="underlined" href="#">text</a></li>
+          <li><a class="underlined" href="#">text</a></li>
+          <li><a class="underlined" href="#">text</a></li>
+          <li><a class="underlined" href="#">text</a></li>
+          <li><a class="underlined" href="#">text</a></li>
+
+          <li class="dropdown">
+              <button class="dropdown__button" onclick="dropdownToggle()">More <i class="fas fa-caret-down"></i></button>
+          </li>
+
+
+          <li class="search">
+            <div class="search-container">
+              <input type="text" placeholder="Search">
+              <a class="search-button" href=""></a> <!-- Search functionality not enabled -->
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- EXTERNAL SCRIPTS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="TopBar/SearchBar.css" rel="stylesheet" type="text/css" />
+    <link href="TopBar/BasketContainer.css" rel="stylesheet" type="text/css" />
+    <link href="main-section.css" rel="stylesheet" type="text/css" />
+    <link href="footer.css" rel="stylesheet" type="text/css" />
+    <link href="test.scss" rel="stylesheet" type="text/css" />
+     <!-- TITLE -->
+    <title>techEX</title>
+
+  <!-- START MAIN CAROSEL HEAD-->  
+  <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- END MAIN CAROSEL HEAD-->
+
+  <!-- MAPQUEST HEADER-->  
+  <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+<link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+<!-- MAPQUEST HEADER-->
+</head>
+
+<body>
+
+<div class="whole-page">
+    <div class="TopBar">
+
+        <a class="BasketContainer" href="#Checkout" alt="BasketIcon">
+            <img src="TopBar/BasketIcon.png" width = "40">
+            <p id="BasketCount">3</p>
+            <p id="Checkout">Checkout</p>
+        </a>
+
+        <div class="SearchBar">
+            <label for="SearchInput">Search</label>
+            <input type="text" id="SearchInput" name="SearchInput" />
+        </div>
+
+    </div>
+
+    <div style="line-height:250%;">
+        <br>
+    </div>
+
+ <!-- START MAIN CAROSEL CONTENT BODY-->   
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://wallpapercave.com/wp/wp6967907.png" alt="Image">
+        <div class="carousel-caption">
+          <h3>Playstation bundle</h3>
+          <p>Money Money.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://wallpapercave.com/wp/wp6967934.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Playstation Bundle2</h3>
+          <p>Lorem ipsum...</p>
+        </div>      
+      </div>
+            <div class="item">
+        <img src="https://wallpapercave.com/wp/wp6803044.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Playstation Bundle3</h3>
+          <p>Lorem ipsum...</p>
+        </div>      
+      </div>
+            <div class="item">
+        <img src="https://wallpapercave.com/wp/wp6968022.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Playstation Bundle2</h3>
+          <p>Lorem ipsum...</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- END MAIN CAROSEL CONTENT BODY -->
+
+
+
+<!-- START Bottom Main Context-->
+    <div class="shop-body container">
+        <div class="row justify-content-center item-row">
+            <div class="col item-section">
+                <img class="small-image" height="100" width="auto" src="https://brain-images-ssl.cdn.dixons.com/0/2/10216720/l_10216720.jpg" alt="Strawberry eton mess" />
+                <p><b>Playstation 5 Call Of Duty Cold War</b></p>
+                <p>price £££</p>
+            </div>
+            <div class="col item-section">
+                <img class="small-image" height="100" width="auto"src="https://brain-images-ssl.cdn.dixons.com/0/2/10216720/l_10216720.jpg"
+                <p><b>Playstation 5 Call Of Duty Cold War</b></p>
+                <p>price £££</p>
+            </div>
+            <div class="col item-section">
+                <img class="small-image" height="100" width="auto" src="https://brain-images-ssl.cdn.dixons.com/0/2/10216720/l_10216720.jpg" alt="Lemon drizzle cake"/>
+                <p><b>Playstation 5 Call Of Duty Cold War</b></p>
+                <p>price</p>
+            </div>
+        </div>
+        <div class="row justify-content-center item-row">
+            <div class="col item-section">
+                  <img class="small-image" height="100" width="auto" src="https://cdn.game.net/image/upload/w_750,f_auto,q_auto/v1/game_img//merch2020/Sony/PS5/Controller-E.jpg"
+                            alt="DualSense™ Wireless Controller" />
+                <p><b>DualSense™ Wireless Controller</b></p>
+                <p>Feel the action come to life in your hands with the next-generation wireless controller. For an intuitive gaming experience, the controller harnesses haptic feedback, adaptive triggers, signature comfort and more.</p>
+                <p>price £££</p>
+            </div>
+            <div class="col item-section">
+                <img class="small-image" height="100" width="auto"
+                            src="https://cdn.game.net/image/upload/w_750,f_auto,q_auto/v1/game_img//merch2020/Sony/PS5/Headset-E.jpg"
+                            alt="3D Pulse Wireless Headset" />
+                <p><b>3D Pulse Wireless Headset</b></p>
+                <p>Experience full immersion with the new wireless headset built for the PS5 and fine-tuned for 3D Audio. The headset features dual hidden microphones, refined design and easy controls putting you at the centre of your games'
+                </p>
+                <p>price £££</p>
+            </div>
+            <div class="col item-section">
+                <img class="small-image" height="100" width="auto"
+                            src="https://cdn.game.net/image/upload/w_750,f_auto,q_auto/v1/game_img//merch2020/Sony/PS5/Remote-E.jpg"
+                            alt="Media Remote" />
+                <p><b>Media Remote</b></p>
+                <p>Access movies, streaming services and entertainment effortlessly on the PS5 with the Media Remote. You can control your media, adjust volume, and navigate the console at the push of a button.</p>
+                <p>price £££</p>
+            </div>
+            <div class="col item-section">
+                <img class="small-image" height="100" width="auto"
+                            src="https://cdn.game.net/image/upload/w_750,f_auto,q_auto/v1/game_img//merch2020/Sony/PS5/Camera-E.jpg"
+                            alt="Chocolate salted caramel cake" />
+                <p><b>HD Camera</b></p>
+                <p>Personalise your gameplay using the HD camera with dual lenses for 1080p capture and a built-in stand. Share your recordings or broadcast you and your favourite gameplay moments to your family and friends with ease.</p>
+                <p>price</p>
+            </div>
+            <div class="col item-section">
+                <img class="small-image" height="100" width="auto"
+                            src="https://cdn.game.net/image/upload/w_750,f_auto,q_auto/v1/game_img//merch2020/Sony/Digital/PS-Digital-E.jpg"
+                            alt="Digital Playstation Store" />
+                <p><b>Digital Playstaion Vouchers</b></p>
+                <p>Unlock more from your PlayStation with PlayStation Plus and PlayStation Credit.</p>
+                <p>The PS Plus subscription service gives you access to online multiplayer, free monthly games, cloud storage and more! Browse PlayStation Store and purchase from an awesome variety of games.</p>
+                <p>price</p>
+            </div>
+                        <div class="col item-section">
+                <img class="small-image" height="100" width="auto"
+                            src="https://cdn.game.net/image/upload/c_fill,dpr_2.0,f_auto,h_200,q_auto/v1/game_img/ml2/7/9/8/9/798932_gen_a.png"
+                            alt="PS5 Fast Charge Twin Charging Dock" />
+                <p><b>PS5 Fast Charge Twin Charging Dock</b></p>
+                <p>When not gaming, attach the USB C adaptor to your PS5 controller and drop into the charging dock; it will begin charging automatically.</p>
+                <p>price</p>
+            </div>
+        </div>
+    </div>
+    <!-- END bottom main context-->
+    <div class="footer">
+     <div class="container">
+        <div class="row">
+            <div class="external-links col">
+                <p>More Information</p>
+                <ul>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Delivery Information</a>
+                    </li>
+                    <li>
+                        <a href="#">Subscribe To Our Email Updates</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0795568029275!2d-0.38289394880950145!3d51.511756418105975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876730cba863191%3A0x47d2205c01d488ea!2schaiiwala%C2%AE%20Southall!5e0!3m2!1sen!2suk!4v1613734844750!5m2!1sen!2suk" width="240" height="240" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col">
+                <form class="contact-form" action="#">
+                    <label id="label" for="contact-us">Contact us</label>
+                    <input class="form-element name" type="text" placeholder="name" size="25">
+                    <input class="form-element" type="text" placeholder="enter your email" size="25"></input>
+                    <textarea class="form-element text-input" name="contact-us" id="" cols="30" rows="4" placeholder="Please provide information regarding your request and we will respond as soon as possible"></textarea>
+                    <input  class="form-element" type="submit" ></input>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+</div>
+</body>
+</html>

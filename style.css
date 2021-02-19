@@ -1,0 +1,115 @@
+.TopBar {
+  position: relative;
+}
+
+/* START Header CSS */
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 10;
+}
+
+/* START Header CSS */
+
+
+/* Start of navigation bar styles */
+
+nav a { display: block; }
+nav a.underlined {
+  text-align: center;
+  border-bottom: 4px solid transparent;
+}
+  
+/*added padding to line 93 and 94*/
+nav a.underlined:hover { border-bottom-color: #262626; text-decoration: none;}
+nav #logo-menu li:nth-child(2) a.underlined:hover { border-bottom-color: #18b;}
+nav #logo-menu li:nth-child(3) a.underlined:hover { border-bottom-color: #921;}
+nav #logo-menu li:nth-child(4) a.underlined:hover { border-bottom-color: #fe1;}
+nav #logo-menu li:nth-child(5) a.underlined:hover { border-bottom-color: #8ce;}
+nav #logo-menu li:nth-child(6) a.underlined:hover { border-bottom-color: #ed3d7d;}
+nav #primary-nav a.underlined:hover { border-bottom-color: white; padding-bottom: 24px;}
+nav #sub-nav a.underlined:hover { border-bottom-color: #cc0101; padding-bottom: 3px;}
+
+nav #logo-menu {
+  border-bottom: 1px solid #ccc;
+}
+nav #logo-menu .content {
+  display: table;
+  width: 100%;
+}
+nav #logo-menu ul {
+  display: table-row;
+  margin-left: 100;
+  margin-right: 100;
+  padding: 0;
+  list-style-type: none;
+}
+nav #logo-menu li {
+  display: table-cell;
+  vertical-align: top;
+  line-height: 13px;
+  border-right: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 14px;
+}
+nav #logo-menu .sign-in img {
+  vertical-align: middle;
+  margin-right: 100px;
+}
+nav #logo-menu .search {
+  border-right: 0;
+}
+nav #logo-menu .logo { width: 1px; }
+nav #logo-menu .search { width: 220px; }
+nav #logo-menu .search .search-container {
+  margin: 8px;
+  height: 24px;
+  background: #e4e4e4;
+}
+nav #logo-menu .search .search-container input,
+nav #logo-menu .search .search-container img { vertical-align: top; }
+nav #logo-menu .search .search-container input {
+  background: transparent;
+  border: none;
+  width: 167px;
+  padding: 0 0 0 5px;
+  line-height: 24px;
+  font-weight: bold;
+}
+nav #logo-menu .search .search-container .search-button {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+}
+nav #logo-menu .search .search-container .search-button img {
+  margin-top: 4px;
+  vertical-align: top;
+}
+nav #logo-menu .logo img {
+  display: inline-block;
+  margin: 8px;
+  vertical-align: top;
+}
+nav #logo-menu .sign-in { width: 170px; }
+nav #logo-menu .sign-in a.underlined { text-align: left; }
+nav #logo-menu li a.underlined {
+  height: 36px;
+  padding: 0 15px;
+}
+
+/* START CSS FOR MAIN CAROSEL */
+   
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+}
+}
+/* END CSS FOR MAIN CAROSEL */
