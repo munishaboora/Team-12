@@ -1,0 +1,67 @@
+.contact-form {
+  position: absolute;
+  text-align: right;
+  right: 150px;
+}
+
+.small-image {
+  max-width: 310px;
+  min-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.shop-body {
+  margin-top: 50px;
+}
+
+.item-section {
+  max-width: 420px;
+  padding: 15px 30px;
+  border-radius: 3px;
+}
+
+.item-section:hover {
+  background-color: rgba(55, 114, 191, 0.3);
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: rgba(121, 163, 240, 0.3);
+  padding: 30px;
+  padding-bottom: 140px;
+}
+
+.external-links {
+  margin-left: 50px;
+}
+
+.external-links p {
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding-top: 15px;
+}
+
+a {
+  color: black;
+}
+
+.form-element {
+  display: block;
+  margin-top: 15px;
+}
+
+#label {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=footer.css.map */
